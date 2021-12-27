@@ -10,7 +10,7 @@ tabula.convert_into("padrao-tiss_componente-organizacional_202111.pdf",
  pages=114)
 
 # Extrair quadro 31 das páginas 115-120 e converter para .csv
-# tabula.read_pdf quadro31[0] multiple_tables=False
+# tabula.read_pdf quadro31[0] multiple_tables=False || Melhoria
 tabula.convert_into("padrao-tiss_componente-organizacional_202111.pdf",
  "quadro31.csv",
  output_format="csv",
@@ -18,7 +18,7 @@ tabula.convert_into("padrao-tiss_componente-organizacional_202111.pdf",
  pages='115-120')
  
 # Extrair quadro 32 da página 120 e converter para .csv
-# read pdf quadro32[1] multiple_tables=True
+# tabula.read pdf quadro32[1] multiple_tables=True || Melhoria
 tabula.convert_into("padrao-tiss_componente-organizacional_202111.pdf",
  "quadro32.csv",
  output_format="csv",
